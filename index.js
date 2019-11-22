@@ -14,8 +14,8 @@ class clear {
   constructor () {
   }
 
-  getAppCacheSize(callBack) {
-      clearCacheModuleObj.getAppCacheSize(callBack);
+  setAppToken(callBack) {
+    global.warn('aaa',NativeModules)
   }
 
   clearAppCache(callBack) {
